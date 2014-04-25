@@ -1,0 +1,11 @@
+SUCCESS=0
+
+grep -q "$REMOTE_USER" "$PWD/AuhtorizedUsers"  # -q  makes grep quiet
+
+if [ $? -eq $SUCCESS ]
+then
+  exit 0
+fi
+echo $REMOTE_USER UNAUTHORIZED TO PUSH TO SPECIFIED PROJECT
+exit 1
+
