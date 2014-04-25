@@ -1,6 +1,12 @@
-ccccc.....a push again...
-===========With Auth need valid user to do any command and they must be done 
-from git bash 
+moving all custom config files to sites-available makes cleaner
+
+===========With Auth need valid user to do any command, 
+	in git bash it ask for user
+	in gitextension 1st time it ask then it fills credential as per
+	http://vibrantcode.com/blog/
+		2012/4/16/gitstorecred-store-https-credentials-for-git.html
+	PS git extension has a bug to fix do as per
+	http://gyorgybalassy.wordpress.com/category/uncategorized/ 
 ======
 Michel@Michel-i5-PC ~/GitClone/GitSetupHttpAuth (master)
 $ git clone http://rpi/git//GitSetup
