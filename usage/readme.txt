@@ -1,3 +1,46 @@
+===========With Auth need valid user to do any command and they must be done 
+from git bash 
+======
+Michel@Michel-i5-PC ~/GitClone/GitSetupHttpAuth (master)
+$ git clone http://rpi/git//GitSetup
+Cloning into 'GitSetup'...
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" get: -c: line 0: syntax error near unexpected token `('
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" get: -c: line 0: `\"C:/Program Files (x86)/GitExtensions/GitCredentia
+lWinStore/git-credential-winstore.exe\" get'
+Username for 'http://rpi': dsada
+Password for 'http://dsada@rpi':
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" erase: -c: line 0: syntax error near unexpected token `('
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" erase: -c: line 0: `\"C:/Program Files (x86)/GitExtensions/GitCredent
+ialWinStore/git-credential-winstore.exe\" erase'
+fatal: Authentication failed for 'http://rpi/git//GitSetup/'
+
+Michel@Michel-i5-PC ~/GitClone/GitSetupHttpAuth (master)
+$ ls
+
+Michel@Michel-i5-PC ~/GitClone/GitSetupHttpAuth (master)
+$ git clone http://rpi/git//GitSetup
+Cloning into 'GitSetup'...
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" get: -c: line 0: syntax error near unexpected token `('
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" get: -c: line 0: `\"C:/Program Files (x86)/GitExtensions/GitCredentia
+lWinStore/git-credential-winstore.exe\" get'
+Username for 'http://rpi': user1
+Password for 'http://user1@rpi':
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" store: -c: line 0: syntax error near unexpected token `('
+\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-wins
+tore.exe\" store: -c: line 0: `\"C:/Program Files (x86)/GitExtensions/GitCredent
+ialWinStore/git-credential-winstore.exe\" store'
+remote: Counting objects: 75, done.
+remote: Compressing objects: 100% (69/69), done.
+remote: Total 75 (delta 34), reused 0 (delta 0)
+Unpacking objects: 100% (75/75), done.
+Checking connectivity... done.
 
 ============GIT BASH CLONE HTTP ========
 
