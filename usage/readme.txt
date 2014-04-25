@@ -1,4 +1,6 @@
-============GIT BASH========
+
+============GIT BASH CLONE HTTP ========
+
 Michel@Michel-i5-PC ~/GitClone/GitSetup55
 $ git clone http://rpi/git/GitSetup
 Cloning into 'GitSetup'...
@@ -57,6 +59,10 @@ Checking connectivity... done.
 
 
 ================================
+<<<<<<< HEAD
+>>>>>>> 42daa2db05fb6e80af25d8ed368118433cf661d5
+=======
+>>>>>>> c97f65d645bce6b3e9712d593653d6d42b2198f2
 
 browser use http://rpi/gitweb
 
